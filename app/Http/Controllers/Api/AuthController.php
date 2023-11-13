@@ -14,7 +14,6 @@ class AuthController extends Controller
     {
         $this->authService = $authService;
         $this->middleware('auth:sanctum', ['except' => ['login', 'register']]);
-
     }
 
     /**

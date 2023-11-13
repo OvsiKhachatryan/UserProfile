@@ -16,12 +16,3 @@ class Notification extends Model
         return $this->morphTo();
     }
 }
-
-
-//class Friend extends Model
-//{
-//    public function friends(): MorphMany
-//    {
-//        return $this->morphMany(Friend::class, 'notifiable');
-//    }
-//}
